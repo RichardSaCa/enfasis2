@@ -1,0 +1,54 @@
+body {
+  background-color:rgb(243, 250, 248);
+}
+.caja1 {
+    background-color:rgb(232, 237, 240);
+    padding: 3%;
+    font-family: comic;
+}
+.gata {
+   text-align:left;
+   font-family: arial;
+   color: rgb(11, 15, 221);   
+   justify-content:left;
+   align-items:flex-end;
+   font-family: "Latin Modern Roman";
+  font-style: italic;
+
+}
+h1{
+    
+   font-family: 'Franklin Gothic Medium';
+    font-size: 5ch;
+		line-height: 1.3em; 
+		margin:0;
+   
+}
+b{
+  font-size: 1.5em;
+}
+
+h3 {
+  text-align: center;
+  font-style: oblique;
+  font-size: 5ch;
+  font-stretch:ultra-expanded;
+  font-family: sans-serif;
+  color: #1836b2;  
+
+}
+
+
+h4, h5 {
+  text-align: center;
+ 
+}
+
+p{
+  font-size: 2.5ch;
+  margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+  font-family: sans-serif;
+  font-style: italic;
+}

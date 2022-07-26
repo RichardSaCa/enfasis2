@@ -1,0 +1,83 @@
+body{
+    background-color: #FFF6DD;
+    font-family: sans-serif;
+  }
+  
+  .containerprueba {
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    height: 500px;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  ul, li {
+      padding: 0;
+      margin: auto;
+      list-style: none;
+  }
+  
+  ul.slider{
+    position: relative;
+    width: 900px;
+    height: 400px;
+    margin: auto;
+  }
+  
+  ul.slider li {
+      position: absolute;
+      left: -70px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+      background-color: #44e77a ;
+  }
+  
+  ul.slider li img{
+    width: 80%;
+    height: 364px;
+    object-fit: cover;
+    top:1000px;
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1; /*Mostramos el primer <li>*/
+  }
+  
+  ul.slider li:target {
+      opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+  }
+  
+  .menu{
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .menu li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menu li a{
+    display: inline-block;
+    color: rgb(54, 159, 54);
+    text-decoration:none;
+    background-color: rgb(102, 196, 85);
+  
+    padding: 22px;
+    width: 20px;
+    height: 20px;
+    font-size: 40px;
+    font-style:italic;
+    border-radius: 100%;
+    text-align: justify;
+    font-style: oblique;
+    font-size: 4ch;
+    font-stretch:ultra-expanded;
+    top: 800px;
+    left:8ch;
+
+  }

@@ -1,0 +1,143 @@
+ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+  }
+  li{
+	float:center;
+  }
+  li a{
+	font-weight:bold;
+	font-family:arial;
+	display: block;
+	color: #18b21d;
+	/* color: #033474;
+	beige #FFF6DD
+	azul #1836b2
+	morado #a066cb
+	celeste #86c7ed */
+	text-align: center;
+	text-decoration: none;
+	padding:14px 16px;
+
+  }
+
+  li a:hover:not(.active){
+	background-color:#e6e9a0;
+  }
+
+  .active{
+	background-color:#04AA6D;
+  }
+
+  .contenedor-bienvenidos{
+	text-align: center;
+	font-family: arial;
+	font-weight: bold;
+	color: #3c6026;
+  }
+  .imagen-eslogan{
+	position: relative;
+	float: right;
+	top: 60px;
+  }
+
+ .inicioSesion {
+	margin: 0;
+	padding: 0; 
+	background-image: url("fondo2.jpg");
+	/* background-repeat: no-repeat;
+	background-size: cover;
+	 background-image: url("fondo.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("fondo.png");
+	background:#FFF6DD; */
+	font-family: sans-serif;
+	height: 100vh;
+	border: none;   
+  } 
+
+  .login-box {
+	width: 320px;
+	height: 420px;
+	background:#e6e9c9;
+	color: #7f271a;
+	border-radius: 15px;
+	top: 50%;
+	left: 50%;
+	/*Left= posición de la cajita blanca (der o izq)*/
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+  }
+
+  .login-box .avatar {
+	width: 100px;
+	height: 100px;
+	border-radius: 60%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+	border: 0px solid #ab3927;
+  }
+
+  .login-box h1 {
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+  }
+
+  .login-box label {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	display: block;
+  }
+
+  .login-box input {
+	width: 100%;
+	margin-bottom: 20px;
+  }
+
+  .login-box input[type="text"], .login-box input[type="password"] {
+	border: none;
+	border-bottom: 2px solid #979a52;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #000;
+	font-size: 16px;
+  }
+
+  .login-box input[type="submit"] {
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #7f271a;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+  }
+
+  .login-box input[type="submit"]:hover {
+	cursor: pointer;
+	background: #777939;
+	color: #fff;
+  }
+
+  .login-box a {
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 20px;
+	color: darkgrey;
+  }
+
+  .login-box a:hover {
+	color: #888a5b;
+  }
+
+  .volver{
+	text-align: center;
+  }

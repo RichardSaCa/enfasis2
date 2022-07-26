@@ -1,0 +1,160 @@
+/*Nuevo código*/
+body{
+	background-color: #fffcef;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #333;
+	font-size: 1.3rem;
+	line-height: 1.3em; 
+	margin:0;
+}
+
+.superior{
+	background-color: #86c7ed;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #1836b2;
+	font-size: 2.2rem;
+	line-height: 1.3em; 
+	margin:0;
+}
+
+.btnMenu{
+	border: 0px solid #ceff1e; /*anchura, estilo y color borde*/
+	padding: 10px; /*espacio alrededor texto*/
+	background-color: #a066cb; /*color botón*/
+	color: #ffffff; /*color texto*/
+	text-decoration: none; /*decoración texto*/
+	/*text-transform: uppercase; capitalización texto*/
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*tipografía texto*/
+	border-radius: 5px; /*bordes redondos*/
+}
+
+.btnMenu:hover,
+.btnMenu:focus {
+  outline     : none;
+  background  : #fff;
+  color       : #a066cb;
+  border: 1px solid #a066cb; /*anchura, estilo y color borde*/
+}
+
+#tablaA{
+	/* border-collapse: collapse; */
+	background-color: #fff; /*color botón*/
+	border-radius: 20px;
+	border: 3px solid rgba(255, 25, 200, 1); /*anchura, estilo y color borde*/
+}
+
+#tablaB{
+	/* border-collapse: collapse; */
+	background-color: #fff; /*color botón*/
+	border-radius: 20px;
+	border: 3px solid #ff9a00; /*anchura, estilo y color borde*/
+}
+
+#tablaC{
+	/* border-collapse: collapse; */
+	background-color: #fff; /*color botón*/
+	border-radius: 20px;
+	border: 3px solid #83fb1e; /*anchura, estilo y color borde*/
+}
+
+#tablaD{
+	/* border-collapse: collapse; */
+	background-color: #fff; /*color botón*/
+	border-radius: 20px;
+	border: 3px solid #1da7fb; /*anchura, estilo y color borde*/
+}
+#tablaGrande{
+	border-collapse: collapse; 
+	background-color: #E1C6F7; /*color botón*/
+	border-radius: 20px;
+	border: 0px solid #ff961e; /*anchura, estilo y color borde*/
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#logoAnalisis{
+	background-color: #fff; /*color botón*/
+	border-radius: 20px;
+	border:0px;
+}
+
+#titulo {
+	background-color: rgb(172, 104, 228); /*color botón*/
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+  }
+
+input {
+	font    : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	/* border  : 1px; */
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding : 0px 10px;
+	margin  : 0;
+	width   : 80%;
+	height: 30px;
+	background : none;
+  }
+
+
+  #tdGlucosa {
+	border-bottom: 3px solid rgba(255, 25, 200, 1);
+  }
+  #txtGlucosa:hover {
+	background   : #fff;
+	border: 1px solid rgba(255, 25, 200, 1);
+	border-radius: 5px;
+  }
+
+
+  #tdCreatinina {
+	border-bottom: 3px solid #ff9a00;
+  }
+  #txtCreatinina:hover {
+	background   : #fff;
+	border: 1px solid #ff9a00;
+	border-radius: 5px;
+  }
+
+
+  #tdPresion {
+	border-bottom: 3px solid #83fb1e;
+  }
+  #txtPresion:hover {
+	background   : #fff;
+	border: 1px solid #83fb1e;
+	border-radius: 5px;
+  }
+
+
+  #tdLiquido {
+	border-bottom: 3px solid #1da7fb;
+  }
+  #txtLiquido:hover {
+	background   : #fff;
+	border: 1px solid #1da7fb;
+	border-radius: 5px;
+  }
+
+
+  button {
+	
+	padding      : 6px;
+	font         : bold .8em sans-serif;
+	border       : 3px solid #333;
+	border-radius: 6px;
+	background   : none;
+	cursor       : pointer;
+	transform    : rotate(0deg);
+  }
+  
+  button:after {
+	content      : "";
+  }
+  
+  button:hover,
+  button:focus {
+	outline     : none;
+	background  : #000;
+	color       : #FFF;
+  }

@@ -1,0 +1,84 @@
+
+	input.button-add {
+		background-image: url(); /* 16px x 16px */
+		background-color: transparent; /* make the button transparent */
+		background-repeat: no-repeat;  /* make the background image appear only once */
+		background-position: 0px 0px;  /* equivalent to 'top left' */
+		border: none;           /* assuming we don't want any borders */
+		cursor: pointer;        /* make the cursor like hovering over an <a> element */
+		height: 16px;           /* make this the size of your image */
+		padding-left: 16px;     /* make text start to the right of the image */
+		vertical-align: middle; /* align the text vertically centered */
+	}
+
+	/*Nuevo código*/
+
+	body{
+		background-color: #fffcef;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		color: #333;
+		font-size: 1.3rem;
+		line-height: 1.3em; 
+		margin:0;
+	}
+
+	p{
+		margin-bottom: 1.6em;
+	}
+
+	h1{
+		font-size: 2rem;
+		line-height: 1.4em;
+	}
+
+	.container{
+		width: 98%;
+		/*max-width: 850px;*/
+		margin: 0 auto;
+	}
+
+	.header{
+		background-color: #86c7ed;
+		color: #fff;
+		padding: 1rem 0;
+	}
+	.header a{
+		color: #1836b2;
+		text-decoration: none; 
+		font-size: 1.7rem;
+	}
+	.logo-nav-container{
+		display: flex;
+		justify-content: space-between;
+		align-items: end;
+	}
+
+	/*Menu inicio sesion*/
+	.navigation ul{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	.navigation ul li{
+		display: inline-block;
+	}
+
+	.navigation ul li a{
+		display: block;
+		padding: 0.5rem 1rem;
+		transition:all 0.4s linear;
+		border: 5px;
+	}
+
+	.navigation ul li a:hover{
+	  background-color: white ;
+	}
+
+	.logo{
+		color: #333;
+		font-size: 1.3rem;
+		line-height: 1.3em; 
+	}
+
+	
