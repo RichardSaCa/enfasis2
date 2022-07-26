@@ -1,5 +1,6 @@
 <?php
 
+//pruba 2
 // PROGRAMA DE VALIDACION DE USUARIOS
 
 $login = $_POST["login1"];
